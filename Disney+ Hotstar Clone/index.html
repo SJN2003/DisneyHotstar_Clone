@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disney+ Hotstar Clone</title>
+
+    <!---sample or main css file---->
+    <link rel="stylesheet" href="style.css">
+
+    <!-----favi icon or icon show link-->
+    <link rel="icon" type="image/png" href="images/logo.png">
+
+    <!-- Roboto GFonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <img src="images/disney-hotstar-logo-dark.svg" class="brand-logo">
+        <ul class="nav-links">
+            <li class="nav-items"><a href="#">TV</a></li>
+            <li class="nav-items"><a href="#">movies</a></li>
+            <li class="nav-items"><a href="#">sports</a></li>
+            <li class="nav-items"><a href="#">premium</a></li>
+        </ul>
+
+        <div class="right-container">
+            <input type="text" class="search-box" placeholder="search">
+            <button class="sub-btn">subscribe</button>
+            <a href="#" class="login-link">login</a>
+        </div>
+    </nav>
+
+
+    <div class="carousel-container">
+        <div class="carousel"></div>
+    </div>
+
+    <div class="video-card-container">
+
+
+        <!-- Video cards -->
+        <div class="video-card">
+            <img src="images/disney.PNG" alt="" class="video-card-image">
+            <video src="videos/disney.mp4" mute loop class="card-video">
+            </video>
+        </div>
+
+        <div class="video-card">
+            <img src="images/pixar.PNG" alt="" class="video-card-image">
+            <video src="videos/pixar.mp4" mute loop class="card-video">
+            </video>
+        </div>
+
+        <div class="video-card">
+            <img src="images/marvel.PNG" alt="" class="video-card-image">
+            <video src="videos/marvel.mp4" mute loop class="card-video">
+            </video>
+        </div>
+
+        <div class="video-card">
+            <img src="images/star-wars.PNG" alt="" class="video-card-image">
+            <video src="videos/star-war.mp4" mute loop class="card-video">
+            </video>
+        </div>
+
+        <div class="video-card">
+            <img src="images/geographic.PNG" alt="" class="video-card-image">
+            <video src="videos/geographic.mp4" mute loop class="card-video">
+            </video>
+        </div>
+
+
+    </div>
+
+
+    <!-- C1 -->
+    <h1 class="title">recommended for you</h1>
+    <div class="movies-list">
+        <button class="pre-btn"><img src="images/pre.png"></button>
+        <button class="nxt-btn"><img src="images/nxt.png"></button>
+        <div class="card-container">
+            <!-- 1 -->
+            <div class="card">
+                <img src="images/poster 1.png" alt="" class="card-image">
+                <div class="card-body">
+                    <h2 class="name">8.2/10 IMDb Action</h2>
+                    <h6 class="des">Loki, God of Mischief, steps out of his brother's shadow to embark on an adventure that takes place after the events of "Avengers."</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <!-- 2 -->
+            <div class="card">
+                <img src="images/poster 2.png" alt="" class="card-image">
+                <div class="card-body">
+                    <h2 class="name">5.8/10 IMDb Action/Fantasy</h2>
+                    <h6 class="des">A girl disguises as a male warrior and joins the imperial army in order to prevent her sick father from being forced to enlist as he has no male heir.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <!-- 3 -->
+            <div class="card">
+                <img src="images/poster 3.png" alt="" class="card-image">
+                <div class="card-body">
+                    <h2 class="name">7.1/10 IMDb Action</h2>
+                    <h6 class="des">Falcon and the Winter Soldier are a mismatched duo who team up for a global adventure that will test their survival skills -- as well as their patience.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <!-- 4 -->
+            <div class="card">
+                <img src="images/poster 4.png" alt="" class="card-image">
+                <div class="card-body">
+                    <h2 class="name">8.4/10 IMDb Action/Sci-fi</h2>
+                    <h6 class="des">After Thanos, an intergalactic warlord, disintegrates half of the universe, the Avengers must reunite and assemble again to reinvigorate their trounced allies and restore balance.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <!-- 5 -->
+            <div class="card">
+                <img src="images/poster 5.png" alt="" class="card-image">
+                <div class="card-body">
+                    <h2 class="name">7.9/10 IMDb Action/Adventure</h2>
+                    <h6 class="des">Deprived of his mighty hammer Mjolnir, Thor must escape the other side of the universe to save his home, Asgard, from Hela, the goddess of death.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <!-- 6 -->
+            <div class="card">
+                <img src="images/poster 6.png" alt="" class="card-image">
+                <div class="card-body">
+                    <h2 class="name">8.0/10 IMDb Action/Adventure</h2>
+                    <h6 class="des">Nick Fury is compelled to launch the Avengers Initiative when Loki poses a threat to planet Earth. His squad of superheroes put their minds together to accomplish the task.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <!-- 7 -->
+            <div class="card">
+                <img src="images/poster 7.png" alt="" class="card-image">
+                <div class="card-body">
+                    <h2 class="name">6.5/10 IMDb Action/Adventure</h2>
+                    <h6 class="des">To break the curse of Flying Dutchman, Captain Jack Sparrow and Henry Turner embark on a mission to find the Trident of Poseidon. They also try to stop Captain Salazar who intends to rule the seas.
+                    </h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <!-- 8 -->
+            <div class="card">
+                <img src="images/poster 8.png" alt="" class="card-image">
+                <div class="card-body">
+                    <h2 class="name">8.0/10 IMDb Family/Adventure</h2>
+                    <h6 class="des">Joe is a middle-school band teacher whose life hasn't quite gone the way he expected. His true passion is jazz -- and he's good. But when he travels to another realm to help someone find their passion, he soon discovers what it means to have soul.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <!-- 9 -->
+            <div class="card">
+                <img src="images/poster 9.png" alt="" class="card-image">
+                <div class="card-body">
+                    <h2 class="name">7.3/10 IMDb Family/Adventure</h2>
+                    <h6 class="des">Raya, a warrior, sets out to track down Sisu, a dragon, who transferred all her powers into a magical gem which is now scattered all over the kingdom of Kumandra, dividing its people.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <!-- 10 -->
+            <div class="card">
+                <img src="images/poster 10.png" alt="" class="card-image">
+                <div class="card-body">
+                    <h2 class="name">7.4/10 IMDb Adventure/Comedy</h2>
+                    <h6 class="des">Luca, a sea monster, befriends Alberto, another one of his kind who takes him on a land adventure. He experiences an exciting summer while keeping his parents in the dark.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <!-- 11 -->
+            <div class="card">
+                <img src="images/poster 11.png" alt="" class="card-image">
+                <div class="card-body">
+                    <h2 class="name">8.1/10 IMDb Drama/Sport</h2>
+                    <h6 class="des">Carroll Shelby, an automotive designer, and Ken Miles, a race car driver, join hands to build a trailblazing vehicle and compete against the Ferrari race cars.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <!-- 12 -->
+            <div class="card">
+                <img src="images/poster 12.png" alt="" class="card-image">
+                <div class="card-body">
+                    <h2 class="name">5.7/10 IMDb Action/Adventure</h2>
+                    <h6 class="des">After a mishap, Jean Grey is struck by a powerful ray of energy which she absorbs into her body, turning her into an uncontrollable liability for the X-Men.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- C2 -->
+    <h1 class="title">Popular & Trending</h1>
+    <div class="movies-list">
+        <button class="pre-btn"><img src="images/pre.png"></button>
+        <button class="nxt-btn"><img src="images/nxt.png"></button>
+        <div class="card-container">
+            <!-- 6 -->
+            <div class="card">
+                <img src="images/poster 6.png" alt="" class="card-image">
+                <div class="card-body">
+                    <h2 class="name">8.0/10 IMDb Action/Adventure</h2>
+                    <h6 class="des">Nick Fury is compelled to launch the Avengers Initiative when Loki poses a threat to planet Earth. His squad of superheroes put their minds together to accomplish the task.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <!-- 7 -->
+            <div class="card">
+                <img src="images/poster 7.png" alt="" class="card-image">
+                <div class="card-body">
+                    <h2 class="name">6.5/10 IMDb Action/Adventure</h2>
+                    <h6 class="des">To break the curse of Flying Dutchman, Captain Jack Sparrow and Henry Turner embark on a mission to find the Trident of Poseidon. They also try to stop Captain Salazar who intends to rule the seas.                    </h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <!-- 8 -->
+            <div class="card">
+                <img src="images/poster 8.png" alt="" class="card-image">
+                <div class="card-body">
+                    <h2 class="name">8.0/10 IMDb Family/Adventure</h2>
+                    <h6 class="des">Joe is a middle-school band teacher whose life hasn't quite gone the way he expected. His true passion is jazz -- and he's good. But when he travels to another realm to help someone find their passion, he soon discovers what it means to have soul.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <!-- 9 -->
+            <div class="card">
+                <img src="images/poster 9.png" alt="" class="card-image">
+                <div class="card-body">
+                    <h2 class="name">7.3/10 IMDb Family/Adventure</h2>
+                    <h6 class="des">Raya, a warrior, sets out to track down Sisu, a dragon, who transferred all her powers into a magical gem which is now scattered all over the kingdom of Kumandra, dividing its people.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <!-- 10 -->
+            <div class="card">
+                <img src="images/poster 10.png" alt="" class="card-image">
+                <div class="card-body">
+                    <h2 class="name">7.4/10 IMDb Adventure/Comedy</h2>
+                    <h6 class="des">Luca, a sea monster, befriends Alberto, another one of his kind who takes him on a land adventure. He experiences an exciting summer while keeping his parents in the dark.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <!-- 11 -->
+            <div class="card">
+                <img src="images/poster 11.png" alt="" class="card-image">
+                <div class="card-body">
+                    <h2 class="name">8.1/10 IMDb Drama/Sport</h2>
+                    <h6 class="des">Carroll Shelby, an automotive designer, and Ken Miles, a race car driver, join hands to build a trailblazing vehicle and compete against the Ferrari race cars.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <!-- 12 -->
+            <div class="card">
+                <img src="images/poster 12.png" alt="" class="card-image">
+                <div class="card-body">
+                    <h2 class="name">5.7/10 IMDb Action/Adventure</h2>
+                    <h6 class="des">After a mishap, Jean Grey is struck by a powerful ray of energy which she absorbs into her body, turning her into an uncontrollable liability for the X-Men.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <!-- 1 -->
+            <div class="card">
+                <img src="images/poster 1.png" alt="" class="card-image">
+                <div class="card-body">
+                    <h2 class="name">8.2/10 IMDb Action</h2>
+                    <h6 class="des">Loki, God of Mischief, steps out of his brother's shadow to embark on an adventure that takes place after the events of "Avengers."</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <!-- 2 -->
+            <div class="card">
+                <img src="images/poster 2.png" alt="" class="card-image">
+                <div class="card-body">
+                    <h2 class="name">5.8/10 IMDb Action/Fantasy</h2>
+                    <h6 class="des">A girl disguises as a male warrior and joins the imperial army in order to prevent her sick father from being forced to enlist as he has no male heir.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <!-- 3 -->
+            <div class="card">
+                <img src="images/poster 3.png" alt="" class="card-image">
+                <div class="card-body">
+                    <h2 class="name">7.1/10 IMDb Action</h2>
+                    <h6 class="des">Falcon and the Winter Soldier are a mismatched duo who team up for a global adventure that will test their survival skills -- as well as their patience.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <!-- 4 -->
+            <div class="card">
+                <img src="images/poster 4.png" alt="" class="card-image">
+                <div class="card-body">
+                    <h2 class="name">8.4/10 IMDb Action/Sci-fi</h2>
+                    <h6 class="des">After Thanos, an intergalactic warlord, disintegrates half of the universe, the Avengers must reunite and assemble again to reinvigorate their trounced allies and restore balance.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <!-- 5 -->
+            <div class="card">
+                <img src="images/poster 5.png" alt="" class="card-image">
+                <div class="card-body">
+                    <h2 class="name">7.9/10 IMDb Action/Adventure</h2>
+                    <h6 class="des">Deprived of his mighty hammer Mjolnir, Thor must escape the other side of the universe to save his home, Asgard, from Hela, the goddess of death.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+    <!---- js file-->
+    <script src="slider-data.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
